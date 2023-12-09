@@ -160,7 +160,7 @@ color: #2E2F42;
  }
 
  /* ============ main =========== */
- /* ============ section =========== */
+ /* ============ section 1=========== */
 
  
  .section-page-title {
@@ -212,6 +212,8 @@ color: #2E2F42;
 .section-page-title .title-button:focus {
     background-color: #404BBF;
 }
+
+/* ============ section 2=========== */
 
 
 .section-advantages {
