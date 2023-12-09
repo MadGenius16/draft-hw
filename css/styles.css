@@ -45,6 +45,8 @@ ul {
      padding: 0 15px;
  }
 
+ /* ============ header =========== */
+
  .page-header {
     flex-shrink: 0;
      border-bottom: 1px solid #e7e9fc;
@@ -157,6 +159,10 @@ color: #2E2F42;
     color:#404BBF
  }
 
+ /* ============ main =========== */
+ /* ============ section =========== */
+
+ 
  .section-page-title {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img11.jpg);
     flex-shrink: 0;
