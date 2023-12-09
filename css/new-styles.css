@@ -630,10 +630,68 @@ justify-content: space-between;
     background-color: #31d0aa;
 }
 
+
 .subscribe-box-form-wrapper {
+    
+}
+
+.subscribe-box-form-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.review-form-footer {
     display: flex;
     flex-direction: column;
     gap: 16px;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-box-form-input {
+    width: 288px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-left: 16px;
+    letter-spacing: 0.04em;
+    color: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.scribe-box-form-input::placeholder {
+    color: #ffffff;
+}
+
+.footer-form-btn {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    background: #4D5AE5;
+    min-width: 165px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;  
+}
+
+.footer-form-btn-icon {
+    margin-left: 16px;
 }
