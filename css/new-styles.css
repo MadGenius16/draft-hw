@@ -205,10 +205,6 @@ justify-content: space-between;
     color: #404BBF
 }
 
-.mobile-menu-address-title{
-
-}
-
 .mobile-menu-address {
     font-style: normal;
     display: flex;
@@ -319,7 +315,7 @@ justify-content: space-between;
     background-color: #404BBF;
 }
 
-/* /============MAIN SECTION-1 STYLES============/ */
+/* /============MAIN SECTION-2 STYLES============/ */
 
 .section-advantages {
     padding: 96px 0;
@@ -339,7 +335,7 @@ justify-content: space-between;
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
@@ -355,4 +351,58 @@ justify-content: space-between;
     display: flex;
 }
 
-/* /============MAIN SECTION-2 STYLES============/ */
+/* /============MAIN SECTION-3 STYLES============/ */
+
+.section-team-title {
+    background-color: #F4F4FD;
+    padding: 96px 0;
+}
+
+.section-team-title .section-title {
+    margin: 0 auto 72px auto;
+    text-align: center;
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-our-team {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.section-our-team .section-title-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.section-our-team .name-profession {
+    padding: 32px 0;
+}
+
+.name-profession .title {
+    margin-bottom: 8px;
+    text-align: center;
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.name-profession .text {
+    text-align: center;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+/* /============MAIN SECTION-4 STYLES============/ */
