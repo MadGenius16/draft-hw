@@ -63,7 +63,7 @@ img {
 
 /* /============ COMMON STYLES ============/ */
 
-/* /============ HEADER STYLES ============/ */
+/* /============ MOBILE HEADER STYLES ============/ */
 
 .container {
     max-width: 320px;
@@ -103,6 +103,13 @@ justify-content: space-between;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     }
+
+@media screen and (max-width: 767px) {
+
+.page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    } 
 
 .mobile-menu-open-btn {
     background-color: transparent;
@@ -260,6 +267,127 @@ justify-content: space-between;
 .social-icon .link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
+/* /============ MOBILE HEADER STYLES ============/ */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+/* /============ TABLET HEADER STYLES ============/ */
+
+.mobile-menu-open-btn {
+    display: none;
+}
+
+.mobile-menu-wrapper {
+    display: none;
+}
+
+.page-header {
+    padding-top: 16px;
+    padding-bottom: 0;
+}
+
+.page-nav {
+    display: inline-flex;
+    gap: 40px;
+    margin-right: auto;
+}
+
+.page-nav .link {
+    display: block;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-nav .current {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404BBF;
+}
+
+.page-address {
+display: flex;
+    gap: 12px;
+    flex-direction: column;
+
+   
+
+}
+
+ .page-address .address-link {
+     display: block;
+     color: #434455;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 1.17;
+     letter-spacing: 0.04em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+ }
+ 
+ .page-address .address-link:hover,
+ .page-address .address-link:focus {
+     color: #404BBF
+ }
+
+.page-address-title {
+    display: block;
+    
+}
+
+.logo {
+    margin-right: 120px;
+}
+
+.page-nav .current::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
+
+
+
+
+
+}
+/* /============ TABLET HEADER STYLES ============/ */
+
+
+/* /============ DESKTOP HEADER STYLES ============/ */
+
+
+
+
+
+
+/* /============ DESKTOP HEADER STYLES ============/ */
+
+
+
+
+
+
+
 
 
 /* /============MAIN SECTION-1 STYLES============/ */
