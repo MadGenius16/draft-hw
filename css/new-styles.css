@@ -839,8 +839,9 @@ flex-wrap: wrap;
     padding: 120px 0;
 }
 
-
-
+.section-portfolio-title .section-our-portfolio {
+    row-gap: 48px;
+}
 
 
 
@@ -1056,15 +1057,27 @@ flex-wrap: wrap;
 
 
 @media screen and (min-width: 1158px) {
-    .container {
+    .page-footer .container {
         max-width: 1158px;
+        gap: 0px; 
+        flex-wrap: nowrap;
     }
 
     /* /============ DESKTOP footer STYLES ============/ */
+.page-footer {
+     padding: 100px 0;
+}
 
+.logo-box {
+    margin-right: 120px;
+}
 
+.review-form-footer {
+margin-left: 80px;
+}
 
-
+.subscribe-box-form-text {
+    margin-left: 80px;
 }
 
 /* /============ DESKTOP footerSTYLES ============/ */
