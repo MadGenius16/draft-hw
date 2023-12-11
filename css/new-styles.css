@@ -59,8 +59,6 @@ img {
 
 
 
-
-
 /* /============ COMMON STYLES ============/ */
 
 /* /============ MOBILE HEADER STYLES ============/ */
@@ -90,7 +88,6 @@ img {
 display: flex;
 align-items: center;
 justify-content: space-between;
-
 }
 
 .logo {
@@ -139,7 +136,6 @@ justify-content: space-between;
     position: relative;
 }
 
-
 .mobile-menu-close-btn {
     position: absolute;
     top: 24px;
@@ -159,7 +155,6 @@ justify-content: space-between;
     cursor: pointer;
 
 }
-
 
 .mobile-menu-close-btn:hover,
 .mobile-menu-close-btn:focus {
@@ -390,7 +385,6 @@ justify-content: space-between;
 
 
 
-
 /* /============MOBILE SECTION-1 STYLES============/ */
 
 
@@ -551,8 +545,6 @@ flex-wrap: wrap;
     text-align: left;
 }
 
-
-
 }
 /* /============ TABLET SECTION-2 STYLES ============/ */
 
@@ -631,9 +623,6 @@ flex-wrap: wrap;
         
 }
 
-.section-our-team .name-profession {
-  
-}
 
 .name-profession .title {
     margin-bottom: 8px;
@@ -813,6 +802,7 @@ flex-wrap: wrap;
         max-width: 767px;
     }
 /* /============ TABLET SECTION-4 STYLES ============/ */
+
 .section-portfolio-title .section-our-portfolio {
     flex-direction: row;
     flex-wrap: wrap;
@@ -820,10 +810,6 @@ flex-wrap: wrap;
     column-gap: 24px;
     justify-content: center;
 }
-
-
-
-
 
 }
 /* /============ TABLET SECTION-4 STYLES ============/ */
@@ -842,8 +828,6 @@ flex-wrap: wrap;
 .section-portfolio-title .section-our-portfolio {
     row-gap: 48px;
 }
-
-
 
 }
 /* /============ DESKTOP SECTION-4 STYLES ============/ */
@@ -926,8 +910,7 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 16px;
-   
-}
+   }
 
 .page-footer .social-network .link {
     width: 100%;
@@ -945,10 +928,6 @@ flex-wrap: wrap;
     background-color: #31d0aa;
 }
 
-
-.subscribe-box-form-wrapper {
-    
-}
 
 .subscribe-box-form-text {
     color: #FFFFFF;
@@ -1361,13 +1340,3 @@ transform: translateY(-50%);
     }
 }
 /* /============TABLET MODAL STYLES============/ */
-
-
-
-
-
-/* /============DESKTOP MODAL STYLES============/ */
-
-
-
-/* /============DESKTOP MODAL STYLES============/ */
