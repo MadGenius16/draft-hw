@@ -58,7 +58,6 @@ img {
 }
 
 
-
 /* /============ COMMON STYLES ============/ */
 
 /* /============ MOBILE HEADER STYLES ============/ */
@@ -400,6 +399,14 @@ justify-content: space-between;
      margin: 0 auto;
  }
 
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .section-page-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile-img/Dark-bg@2x.jpg');
+    }
+}
+
 .hero-title {
     color: #FFF;
     text-align: center;
@@ -463,6 +470,14 @@ justify-content: space-between;
 }
 
 }
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .section-page-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/tablet-img/dark-bg-tablet@2x.jpg');
+    }
+}
 /* /============ TABLET SECTION-1  STYLES ============/ */
 
 @media screen and (min-width: 1158px) {
@@ -482,6 +497,14 @@ justify-content: space-between;
     margin-bottom: 48px;
    }
 
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .section-page-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop-img/people-office@2x.jpg');
+    }
 }
 /* /============ DESKTOP SECTION-1 STYLES ============/ */
 
@@ -1058,7 +1081,7 @@ margin-left: 80px;
 .subscribe-box-form-text {
     margin-left: 80px;
 }
-
+}
 /* /============ DESKTOP footerSTYLES ============/ */
 
 
