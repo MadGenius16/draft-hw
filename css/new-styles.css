@@ -37,7 +37,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
-    object-fit: cover;
+    
 }
 
   .logo-studio {
@@ -807,6 +807,7 @@ flex-wrap: wrap;
 
 
 
+
 }
 /* /============ TABLET SECTION-4 STYLES ============/ */
 
@@ -1064,7 +1065,7 @@ flex-wrap: wrap;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open!! {
+.backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -1125,7 +1126,7 @@ flex-wrap: wrap;
 }
 
 .review-form-description {
-    width: 256px;
+    width: 100%;
     color: #2E2F42;
     text-align: center;
     font-size: 16px;
@@ -1136,7 +1137,7 @@ flex-wrap: wrap;
 }
 
 .review-form {
-     width: 256px;
+     width: 100%;
    }
 
 .review-form-wrapper {
@@ -1310,3 +1311,27 @@ transform: translateY(-50%);
 .review-form-btn:focus {
     background-color: #404BBF;
     }
+
+/* /============MOBILE MODAL STYLES============/ */
+
+/* /============TABLET MODAL STYLES============/ */
+@media screen and (min-width: 768px) {
+    .modal  {
+        width: 408px;
+        min-height: 584px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+}
+/* /============TABLET MODAL STYLES============/ */
+
+
+
+
+
+/* /============DESKTOP MODAL STYLES============/ */
+
+
+
+/* /============DESKTOP MODAL STYLES============/ */
