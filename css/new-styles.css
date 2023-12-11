@@ -488,10 +488,6 @@ justify-content: space-between;
     margin-bottom: 48px;
    }
 
-
-
-
-
 }
 /* /============ DESKTOP SECTION-1 STYLES ============/ */
 
@@ -567,10 +563,30 @@ flex-wrap: wrap;
 
 /* /============ DESKTOP SECTION-2 STYLES ============/ */
 
+.section-advantages {
+    padding: 120px 0;
+}
 
+.section-title-advantages {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
+.section-advantages-item {
+    width: calc((100% - 72px) / 4)
+}
 
-
+.icon-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
 
 }
 /* /============MOBILE SECTION-3 STYLES============/ */
@@ -688,13 +704,8 @@ flex-wrap: wrap;
    justify-content: center;
 }
 
-
-
 }
 /* /============ TABLET SECTION-3 STYLES ============/ */
-
-
-
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -702,8 +713,9 @@ flex-wrap: wrap;
     }
 
 /* /============ DESKTOP SECTION-3 STYLES ============/ */
-
-
+.section-team-title {
+       padding: 120px 0;
+}
 
 }
 /* /============ DESKTOP SECTION-3 STYLES ============/ */
@@ -813,7 +825,6 @@ flex-wrap: wrap;
 
 
 
-
 }
 /* /============ TABLET SECTION-4 STYLES ============/ */
 
@@ -823,6 +834,12 @@ flex-wrap: wrap;
         max-width: 1158px;
     }
 /* /============ DESKTOP SECTION-4 STYLES ============/ */
+
+.section-portfolio-title {
+    padding: 120px 0;
+}
+
+
 
 
 
