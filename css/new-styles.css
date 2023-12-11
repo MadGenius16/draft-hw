@@ -361,35 +361,32 @@ justify-content: space-between;
     background-color: #404BBF;
 }
 
-
 }
 /* /============ TABLET HEADER STYLES ============/ */
 
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        padding: 0 15px;
     }
-
 /* /============ DESKTOP HEADER STYLES ============/ */
 
+.logo {
+    margin-right: 72px;
+}
 
+.page-address {
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+}
 
-
-
-
-
-
-
-
-
+.page-header {
+    padding-top: 0;
+}
 
 }
 /* /============ DESKTOP HEADER STYLES ============/ */
-
-
-
-
-
 
 
 
@@ -477,10 +474,19 @@ justify-content: space-between;
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        
     }
 /* /============ DESKTOP SECTION-1 STYLES ============/ */
+.section-page-title {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desktop-img/people-office.jpg);
+    max-width: 1440px;
+    padding: 188px 0;
+    height: 600px;
+   }
 
-
+.hero-title {
+    margin-bottom: 48px;
+   }
 
 
 
